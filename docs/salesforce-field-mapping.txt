@@ -1,0 +1,67 @@
+## Field Mapping ##
+
+0 = Website
+1 = Competitor_URL__c
+caller_city = Caller_City__c
+caller_name = Name
+caller_number = Phone
+caller_postal_code = Caller_Zip__c
+caller_state = Caller_State__c
+classification = Classification__c
+comments = Description
+date = Lead_Date__c
+duration = Call_Duration__c
+email = Email
+first_name = Name
+help = Description
+how_can_we_help = Description
+id = SNLID__c
+im_budget = Initial_Recurring_Monthly_Budget__c
+interested_in = Primary_Service_Interest__c
+name = Name
+notes = Phone_Call_Notes__c
+phone = Phone
+seogroup-form-email = Email
+seogroup-form-keyword = Keyword__c
+seogroup-form-name = Name
+source = LeadSource
+status = Call_Status__c
+trackable_number = Trackable_Number__c
+type = Lead_Type__c
+website_budget = Initial_Project_Budget__c
+website_url = Website
+
+
+
+## Required Fields When Creating a New Lead ##
+
+*Company - No associated field in GNL - just set this to N/A
+*Last Name - put the entire name field in here rather than breaking it up
+*Lead Date - Just need the date here, not the time
+*Lead Status - No associated field in GNL - just set this to Open - Awaiting Contact
+
+Lead Type - Set this to phone or form based on data in GNL
+
+
+
+## Sandbox Environment Information ##
+
+Sandbox Name: testing
+Sandbox Login: https://cs26.salesforce.com/
+
+Username: ffornaris@straightnorth.com.testing
+Password: North2016!
+Security token (case-sensitive): Axw5MuxM2MN9MXplbSvKwJ6a
+
+How to enter your security token:
+
+When accessing salesforce.com either via a desktop client or the API from outside of your company's trusted networks:
+
+If your password = "mypassword"
+And your security token = "XXXXXXXXXX"
+You must enter "mypasswordXXXXXXXXXX" in place of your password
+
+
+## API Documentation ##
+
+https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/
