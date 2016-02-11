@@ -139,7 +139,7 @@ class GetLead {
      $ret = curl_setopt($ch, CURLOPT_URL, "https://api.gonorthreporting.com/v1/10001/leads/" . $leadId);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-               'X-ApiToken: 8a8687e38772c24c4beb1e6753b1df37a975028948cb1204b51a6d07f485dc87',
+               'X-ApiToken:' . $auth,
                'Content-Type: application/json',
                'Accept: application/json',
               )
